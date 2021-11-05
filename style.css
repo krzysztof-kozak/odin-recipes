@@ -23,16 +23,18 @@ p {
 
 .content {
   max-width: 800px;
-  min-height: 100vh;
   margin: 0 auto;
-
-  padding: 1em;
-  border: 1px solid orangered; /* for debugging purposes */
 }
 
 .grid-container {
   display: grid;
   grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
+}
+
+.header {
+  background-color: #e1f5fe;
+  padding: 0.5em;
+  text-align: center;
 }
 
 .footer {
