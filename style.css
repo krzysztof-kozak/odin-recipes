@@ -59,10 +59,17 @@ p {
 
 .recipe-list__item {
   cursor: pointer;
+  width: max-content;
 }
 
 .recipe-list__item::after {
   content: "";
+  width: 32px;
+  height: 32px;
+  background: url(./assets/link-icon.png) no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 7px;
 }
 
 .recipe-list__item + .recipe-list__item {
