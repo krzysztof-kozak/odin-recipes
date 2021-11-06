@@ -54,6 +54,8 @@ p {
 .main {
   background-color: rgb(225 245 254);
   padding: 0.5em;
+  display: grid;
+  align-items: center;
 }
 
 .article {
