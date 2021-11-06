@@ -1,6 +1,7 @@
 body {
   font-size: 1.2em;
   line-height: 1.7rem;
+  color: black;
 }
 
 h1,
@@ -22,21 +23,49 @@ p {
 }
 
 .content {
-  max-width: 800px;
+  max-width: 60ch;
   margin: 0 auto;
 }
 
 .grid-container {
   display: grid;
   grid-template-rows: minmax(100px, auto) 1fr minmax(100px, auto);
+  min-height: 100vh;
 }
 
 .header {
-  background-color: #e1f5fe;
+  background-color: rgb(255 225 245);
   padding: 0.5em;
   text-align: center;
 }
 
+.main {
+  background-color: rgb(225 245 254);
+  padding: 0.5em;
+}
+
+.article {
+  word-break: break-word;
+}
+
+.article__title {
+  text-align: center;
+}
+
+.recipe-list {
+  margin-top: 1em;
+  color: rgb(0 80 255);
+}
+
 .footer {
-  align-self: end;
+  background-color: #6a1b9a;
+  color: rgb(255 255 255 / 75%);
+  padding: 0.5em;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.footer__text {
+  margin: 0 auto;
+  max-width: 40ch;
 }
